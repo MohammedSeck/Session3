@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> For/In Loop</title>
+</head>
+
+<body>
+
+  <p>The for/in statement loops through the properties of an object.</p>
+
+  <p id="displayDetails"></p>
+
+  <script>
+    var txt ="";
+    var person = {firstName:"Mohammed Karim",
+                  lastName: "Seck",
+                  gender:"Male",
+                  age:18};
+    var x;
+    for (x in person) {
+        txt += person[x] + " ";
+    }
+    document.getElementById("displayAnime").innerHTML =  output;
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> For Loop - 2</title>
+</head>
+
+<body>
+
+  <p id="displayAnime"></p>
+
+  <script>
+    var anime = ["one piece", "naruto", "fairy tail", "dragon ball", "nanatsu no taizai"];
+
+    var i = 6;
+    var len = anime.length;
+    var output = "";
+
+    for (; i < len; ) {
+        output += anime[i] + "<br>";
+        i++;
+    }
+    document.getElementById("displayAnime").innerHTML =  output;
+  </script>
+
+</body>
+</html>
